@@ -1,6 +1,7 @@
 import json
 import getpass
 
+
 def cadastro_usuario():
     senha = "" # Cria a variável senha com conteúdo vazio
     while True: # Loop infinito
@@ -57,6 +58,8 @@ def login():
             print("Login successfully completed!") # Caso a condicional seja verdadeira, apresenta a mensagem "Login successfully completed!"
             return # Retorna para a função login
     print("Invalid name or password") # Caso a condicional seja falsa, apresenta a mensagem "Invalid name or password"
+    login() # Chama a função login
+
 
 def main():
     print("Welcome to the system!")
