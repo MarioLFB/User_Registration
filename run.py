@@ -56,6 +56,8 @@ def login():
     for user in usuario: #O loop 'e necessario para poder checkar TODOS os usuarios cadastrados, sem isso ele nao percorrera todos os usuarios.
         if user["name"] == name and user["password"] == password: # cria a condicional para verificar se o nome e senha digitados pelo usuario sao iguais ao nome e senha cadastrados
             print("Login successfully completed!") # Caso a condicional seja verdadeira, apresenta a mensagem "Login successfully completed!"
+            import weather
+            weather.main()
             return # Retorna para a função login
     print("Invalid name or password") # Caso a condicional seja falsa, apresenta a mensagem "Invalid name or password"
     login() # Chama a função login
