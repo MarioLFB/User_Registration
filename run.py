@@ -58,7 +58,6 @@ def login():
             return # Retorna para a função login
     print("Invalid name or password") # Caso a condicional seja falsa, apresenta a mensagem "Invalid name or password"
 
-
 def main():
     print("Welcome to the system!")
     print("1 - Register")
