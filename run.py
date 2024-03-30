@@ -6,7 +6,6 @@ def cadastro_usuario():
     while True: # Loop infinito
         name = input("How you want to be called?\n")
 
-
         try:
             with open('usuarios.json', 'r') as arquivo: # Abre o arquivo no modo leitura R de read e salva na variável arquivo
                 usuarios = json.load(arquivo) # Cria a variavel Usuarios, que recebe o conteúdo do da variavel arquivo, usando o método json.load
@@ -29,8 +28,21 @@ def cadastro_usuario():
                 usuarios.append({"name": name, "password": senha}) # Adiciona a variavel usuarios o dicionário com o nome e senha do usuário
                 with open('usuarios.json', 'w') as arquivo: # Abre o arquivo no modo escrita W de write e salva na variável arquivo
                     json.dump(usuarios, arquivo) # 1 usuarios é a variavel de usuários que você que teve append a lista. 2 arquivo representa o arquivo "usuarios.json" dentro dele.
-                return # Retorna para a função cadastro_usuario
-            
+                return_menu() # Chama a função return_menu
+                break
+
+def return_menu(): # funcao criada para retornar ao menu principal ou sair do programa
+    print("1 - Return to the menu")
+    print("2 - Exit")
+    option = input("Choose an option: ")
+    if option == "1":
+        main()
+    elif option == "2":
+        exit()
+    else:
+        print("Invalid option")
+        return_menu()
+
 def login():
     with open('usuarios.json', 'r') as arquivo: # Abre o arquivo no modo leitura R de read e salva na variável arquivo
         try: #metodo try para tentar executar o código e posteriormente o metodo except para tratar caso ocorra um erro
