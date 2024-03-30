@@ -5,8 +5,13 @@ def cadastro_usuario():
     senha = "" # Cria a variável senha com conteúdo vazio
     while True: # Loop infinito
         name = input("How you want to be called?\n")
-        with open('usuarios.json', 'r') as arquivo: # Abre o arquivo no modo leitura R de read e salva na variável arquivo
-            usuarios = json.load(arquivo) # Cria a variavel Usuarios, que recebe o conteúdo do da variavel arquivo, usando o método json.load
+
+
+        try:
+            with open('usuarios.json', 'r') as arquivo: # Abre o arquivo no modo leitura R de read e salva na variável arquivo
+                usuarios = json.load(arquivo) # Cria a variavel Usuarios, que recebe o conteúdo do da variavel arquivo, usando o método json.load
+        except json.decoder.JSONDecodeError: # O erro json.decoder.JSONDecodeError: ocorre quando o arquivo está vazio ou nao esta no formato json valido.
+            usuarios = [] # Caso ocorra o erro, a variável usuarios recebe uma lista vazia
 
         name_registered = False # Cria a variável name_registered com conteúdo False a ser usado mais tarde
         for user in usuarios: #loop para percorrer todos os usuários cadastrados
