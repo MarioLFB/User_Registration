@@ -24,7 +24,7 @@ def get_weather_data(city):
     requisicao = requests.get(link)
     if requisicao.status_code != 200:
         print("City not found")
-        return None
+        options()
     return requisicao.json()
 
 def weather(data):
