@@ -38,8 +38,5 @@ def temperature(data):
 
 
 def main():
-    print("Welcome to the weather system!")
     options()
-
-main()
 
