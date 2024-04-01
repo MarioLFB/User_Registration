@@ -2,6 +2,7 @@ import json
 import getpass
 
 
+
 def cadastro_usuario():
     senha = "" # Cria a variável senha com conteúdo vazio
     while True: # Loop infinito
@@ -64,7 +65,7 @@ def login():
 
 
 def main():
-    print("Welcome to the system!")
+    print("Welcome to Real-Time Weather Forecast")
     print("1 - Register")
     print("2 - Login")
     input_user = input("Choose an option: ")
