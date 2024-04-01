@@ -2,7 +2,6 @@ import json
 import getpass
 
 
-
 def cadastro_usuario():
     senha = "" # Cria a variável senha com conteúdo vazio
     while True: # Loop infinito
