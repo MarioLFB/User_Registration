@@ -34,11 +34,14 @@ def cadastro_usuario():
 
 def return_menu(): # funcao criada para retornar ao menu principal ou sair do programa
     print("1 - Return to the menu")
-    print("2 - Exit")
+    print("2 - Login")
+    print("3 - Exit")
     option = input("Choose an option: ")
     if option == "1":
         main()
     elif option == "2":
+        login()
+    elif option == "3":
         exit()
     else:
         print("Invalid option")
