@@ -68,11 +68,15 @@ def main():
     print("Welcome to Real-Time Weather Forecast")
     print("1 - Register")
     print("2 - Login")
+    print("3 - Exit")
     input_user = input("Choose an option: ")
     if input_user == "1":
         cadastro_usuario()
     elif input_user == "2":
         login()
+    elif input_user == "3":
+        print("Goodbye!")
+        exit()
     else:
         print("Invalid option")
         main()
