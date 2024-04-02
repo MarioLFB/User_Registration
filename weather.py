@@ -81,7 +81,7 @@ def temperature(data):
     print(f"It's hitting up to {data['main']['temp_max'] - 273.15:.0f}°C and "
           f"falling to {data['main']['temp_min'] - 273.15:.0f}°C in {city}.")
     print(f"It feels like {data['main']['feels_like'] - 273.15:.0f}°C " +
-          f"in {city}, man.")
+          f"in {city}.")
     return_menu()
 
 
