@@ -1,6 +1,6 @@
 # Real-Time Weather Forecast
 
-- Real-Time Weather Forecast" is an application created in Python and deployed through Heroku. It was designed to provide users with real-time information about the weather conditions in their chosen city, including the current temperature, as well as the maximum and minimum temperatures for the current day, along with the sunrise and sunset times.
+- Real-Time Weather Forecast is an application created in Python and deployed through Heroku. It was designed to provide users with real-time information about the weather conditions in their chosen city, including the current temperature, as well as the maximum and minimum temperatures for the current day, along with the sunrise and sunset times.
 
 [Link to the website](https://authentication19-5b29c2e044bf.herokuapp.com/)
 
@@ -41,3 +41,27 @@
     - [Content](#content)
     - [Code](#code)
 - [Thank You](#thank-you)
+
+## Project Goals
+### User Stories
+
+- Create a login as a new user.
+- Log in as a user.
+- The user selects the city to be consulted
+- Check the current weather forecast.
+- Check minimum and maximum temperatures.
+- Check the sunrise and sunset times for the current day.
+- Users can access the application again at any time.
+
+## User Experience
+### Target Audience
+
+- The application can be accessed by any and all types of users.
+- The application does not contain any sensitive information for any age group.
+
+### User Requirements and Expectations
+
+- Secure and fast user registration and login
+- Quick access to weather forecast information
+- Easy navigation through the application
+- Quick and optimized information
