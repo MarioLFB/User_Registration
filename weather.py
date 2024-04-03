@@ -1,5 +1,7 @@
 import requests
 import datetime
+import os
+import time
 
 API_KEY = "ea0e21b47d3e60fce3ad43dc7ae01db5"
 
@@ -10,6 +12,8 @@ def options():
     functions to check the weather, temperature,
     sunrise and sunset times or exit the program.
     """
+    time.sleep(1)
+    clear_terminal()
     print("1 - Check the weather")
     print("2 - Check the temperature")
     print("3 - Check the sunrise and sunset times")
@@ -101,6 +105,14 @@ def return_menu():
     else:
         print("Invalid option")
         return_menu()
+
+
+def clear_terminal():
+    """
+    Function to clear the terminal screen.
+    """
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def main():

@@ -1,5 +1,7 @@
 import json
 import getpass
+import os
+import time
 
 
 def cadastro_usuario():
@@ -31,6 +33,7 @@ def cadastro_usuario():
                     senha.strip() == ""):
                 print("Invalid name or password")
             else:
+                clear()
                 print(f"Thank you {name}! " +
                       "Registration successfully Completed!")
                 usuarios.append({"name": name, "password": senha})
@@ -83,11 +86,19 @@ def login():
     login()
 
 
+def clear():
+    """
+    Function to clear the terminal screen.
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 def main():
     """
     Function to show the main menu of the system and
     call the functions to register, login or exit the system.
     """
+    clear()
     print("Welcome to Real-Time Weather Forecast")
     print("1 - Register")
     print("2 - Login")
