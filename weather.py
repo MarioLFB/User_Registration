@@ -70,7 +70,7 @@ def sunrise_sunset(data):
 
 def weather(data):
     city = data['name']
-    print(f"The sky in {city}  is all like "
+    print(f"The sky in {city} is all like "
           f"{data['weather'][0]['description']}")
     return_menu()
 
