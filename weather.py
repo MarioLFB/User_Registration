@@ -25,6 +25,7 @@ def options():
         city = input("Enter the city: ")
         sunrise_sunset(get_weather_data(city))
     elif option == "4":
+        print("Goodbye!")
         exit()
     else:
         print("Invalid option")
@@ -95,6 +96,7 @@ def return_menu():
     if option == "1":
         options()
     elif option == "2":
+        print("Goodbye!")
         exit()
     else:
         print("Invalid option")

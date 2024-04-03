@@ -53,6 +53,7 @@ def return_menu():
     elif option == "2":
         login()
     elif option == "3":
+        print("Goodbye!")
         exit()
     else:
         print("Invalid option")
