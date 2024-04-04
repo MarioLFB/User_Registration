@@ -65,3 +65,46 @@
 - Quick access to weather forecast information
 - Easy navigation through the application
 - Quick and optimized information
+
+### User Manual
+<details><summary>Click here to view instructions</summary>
+
+#### Home Screen
+
+- Upon launching the app, you will be greeted with the home screen, displaying the options for "Register", "Login", and "Exit".
+- Operation: Choose an option by typing "1" for Register, "2" for Login, or "3" to Exit.
+
+#### Registration
+
+- If you are a new user, select "1" to register.
+- You will be prompted to enter how you wish to be called and choose a 6-digit password.
+- After registration, you will be directed to login.
+
+#### Login
+
+- If you are already a registered user, select "2" at the home screen to log in.
+- Enter your name and password.
+- Once your credentials are verified, you will be directed to the main menu of the app.
+
+#### Main Menu
+
+In the main menu, you will have the following options:
+"1 - Check the weather"
+"2 - Check the temperature"
+"3 - Check sunrise and sunset times"
+"4 - Exit"
+Choose the desired option by typing the corresponding number.
+
+#### Checking the Weather
+
+- After choosing to check the weather, temperature, or sunrise and sunset times, you will be prompted to enter the name of the city.
+- The weather information for the chosen city will be displayed.
+- After viewing the information, you can choose to return to the main menu or exit the application.
+
+#### Exiting the App
+
+- To exit the application at any time, select the exit option in the menu you are in.
+- A farewell message will be displayed.
+
+
+</details>
