@@ -144,3 +144,27 @@ Choose the desired option by typing the corresponding number.
     <p>Real-Time Weather Forecast</p>
     <img src = "assets\screenshots\weather_forecast.png" alt = "A screenshot of flowchart">
 </details>
+
+## Technology Used
+### Language Used
+
+- Python
+
+### Python Libraries used
+
+- import json - Imports the JSON module, allowing manipulation of JSON data.
+- import getpass - Imports the getpass module, which prompts the user for a password without echoing it.
+- import os - Imports the os module, which provides a portable way of using operating system-dependent functionality.
+- import time - Imports the time module, providing functions for working with time, such as delays and timestamps.
+
+### Other websites/tools used
+
+- [Lucidchart](https://www.lucidchart.com) was used to build flowchart
+- [GitHub](https://github.com/) was used for saving and storing files.
+- [VS Code](https://code.visualstudio.com/) was used for writing code.
+- [Heroku](https://www.heroku.com/) was used as the deploying platform for this site.
+
+### 3rd Party Python Libraries used
+
+- Weather API - It is an interface that provides access to weather data from various sources such as meteorological organizations or weather stations. It typically allows developers to retrieve current weather conditions, forecasts, and historical data for specific locations. This data can be utilized in applications ranging from weather forecasting services to travel and event planning, enhancing user experience and decision-making processes.
+[Weather API](https://openweathermap.org/api)
