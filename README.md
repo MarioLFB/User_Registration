@@ -113,7 +113,7 @@ Choose the desired option by typing the corresponding number.
 ### Users
 
 1. As a user, I want to have the option to login or register a new account.
-2. As a user, I want to have my data saved and login later.
+2. As a user, I want to have my data saved.
 3. As a user, I want to access the main menu after logging in.
 4. As a user, I want to have access to weather search options.
 5. As a user, I want to choose the city to get the desired information.
@@ -123,7 +123,7 @@ Choose the desired option by typing the corresponding number.
 ### Site Owner
 
 8. As the site owner, I want users to have quick access to the login and user registration area.
-9. As the site owner, I want users' names and passwords to be securely stored.
+9. As the site owner, I want users names and passwords to be securely stored.
 10. As the site owner, I want users to receive clear error messages in case of incorrect inputs.
 11. As the site owner, I want users to have a positive experience by providing accurate, up-to-date weather information.
 12. As the site owner, I want users to make multiple searches, constantly returning to the main menu.
@@ -168,3 +168,16 @@ Choose the desired option by typing the corresponding number.
 
 - Weather API - It is an interface that provides access to weather data from various sources such as meteorological organizations or weather stations. It typically allows developers to retrieve current weather conditions, forecasts, and historical data for specific locations. This data can be utilized in applications ranging from weather forecasting services to travel and event planning, enhancing user experience and decision-making processes.
 [Weather API](https://openweathermap.org/api)
+
+## Features
+Consists of an application with 15 features.
+
+### Home page display
+
+- Welcome message and the user registration/login area.
+- On the initial page displayed, the first message is "Welcome to Real-Time Weather Forecast," followed by options for user registration, login, and exit.
+- User stories covered: 1, 8 and 13
+<details><summary>Image Logo and Main Text Slogan</summary>
+<img src="assets\screenshots\login_area.png">
+</details>
+
