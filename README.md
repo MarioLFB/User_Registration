@@ -176,8 +176,19 @@ Consists of an application with 15 features.
 
 - Welcome message and the user registration/login area.
 - On the initial page displayed, the first message is "Welcome to Real-Time Weather Forecast," followed by options for user registration, login, and exit.
+- This area display an instruction for signup for new users
 - User stories covered: 1, 8 and 13
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="assets\screenshots\login_area.png">
 </details>
 
+### Option 1 -  Register
+
+- Registration Process
+- The user receives instructions to register a username and password.
+- The password input undergoes the getpass treatment and is not displayed on the screen for security reasons.
+- Once meeting the registration standards, the user returns to the registration/login area followed by the message, "Thank you, Code! Registration successfully completed!"
+<details><summary>Register</summary>
+<img src="assets\screenshots\register.png">
+<img src="assets\screenshots\register2.png">
+</details>
