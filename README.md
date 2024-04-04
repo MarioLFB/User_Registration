@@ -106,5 +106,30 @@ Choose the desired option by typing the corresponding number.
 - To exit the application at any time, select the exit option in the menu you are in.
 - A farewell message will be displayed.
 
-
 </details>
+
+## User Stories
+
+### Users
+
+1. As a user, I want to have the option to login or register a new account.
+2. As a user, I want to have my data saved and login later.
+3. As a user, I want to access the main menu after logging in.
+4. As a user, I want to have access to weather search options.
+5. As a user, I want to choose the city to get the desired information.
+6. As a user, I want to have the option to return to the menu and perform more searches.
+7. As a user, I want to exit the application once I finish my searches.
+
+### Site Owner
+
+8. As the site owner, I want users to have quick access to the login and user registration area.
+9. As the site owner, I want users' names and passwords to be securely stored.
+10. As the site owner, I want users to receive clear error messages in case of incorrect inputs.
+11. As the site owner, I want users to have a positive experience by providing accurate, up-to-date weather information.
+12. As the site owner, I want users to make multiple searches, constantly returning to the main menu.
+
+### Returning User
+
+13. As a returning user, I want to log in without the need for new registration, to quickly access my account.
+14. As a returning user, I want to have real-time information available on all accesses to the application, ensuring that weather forecasts are always up to date.
+15. As a returning user, I want to quickly access the necessary information and exit the application quickly.
