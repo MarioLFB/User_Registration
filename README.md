@@ -133,3 +133,14 @@ Choose the desired option by typing the corresponding number.
 13. As a returning user, I want to log in without the need for new registration, to quickly access my account.
 14. As a returning user, I want to have real-time information available on all accesses to the application, ensuring that weather forecasts are always up to date.
 15. As a returning user, I want to quickly access the necessary information and exit the application quickly.
+
+## Technical Design
+
+## FlowChart
+- [Lucidchart](https://www.lucidchart.com) was used to build flowchart
+
+<details>
+    <summary>Flowchart</summary>
+    <p>Real-Time Weather Forecast</p>
+    <img src = "assets\screenshots\weather_forecast.png" alt = "A screenshot of flowchart">
+</details>
