@@ -112,7 +112,7 @@ Choose the desired option by typing the corresponding number.
 
 ### Users
 
-1. As a user, I want to have the option to login or register a new account.
+1. As a user, I want to have the option to login or register a new account. 
 2. As a user, I want to have my data saved.
 3. As a user, I want to access the main menu after logging in.
 4. As a user, I want to have access to weather search options.
@@ -175,8 +175,8 @@ Consists of an application with 15 features.
 ### Home page display
 
 - Welcome message and the user registration/login area.
-- On the initial page displayed, the first message is "Welcome to Real-Time Weather Forecast," followed by options for user registration, login, and exit.
-- This area display an instruction for signup for new users
+On the initial page displayed, the first message is "Welcome to Real-Time Weather Forecast," followed by options for user registration, login, and exit.
+This area display an instruction for signup for new users
 - User stories covered: 1, 8 and 13
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="assets\screenshots\login_area.png">
@@ -185,9 +185,10 @@ Consists of an application with 15 features.
 ### Option 1 -  Register
 
 - Registration Process
-- The user receives instructions to register a username and password.
-- The password input undergoes the getpass treatment and is not displayed on the screen for security reasons.
-- Once meeting the registration standards, the user returns to the registration/login area followed by the message, "Thank you, Code! Registration successfully completed!"
+The user receives instructions to register a username and password.
+The password input undergoes the getpass treatment and is not displayed on the screen for security reasons.
+Once meeting the registration standards, the user returns to the registration/login area followed by the message, "Thank you, Code! Registration successfully completed!"
+- User stories covered: 1, 2 and 8
 <details><summary>Register</summary>
 <img src="assets\screenshots\register.png">
 <img src="assets\screenshots\register2.png">
