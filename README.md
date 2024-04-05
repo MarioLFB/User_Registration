@@ -338,3 +338,15 @@ If the city is invalid, the user receives an error message (City not found!) and
     <img src="assets\screenshots\manual_weather_error.png" alt="Check the weather error">
 </details>
 
+7. Option 2 - Check the temperature. User types option 2; User receives the prompt to enter the desired city (Enter the city:); User receives information about the temperature (Dude, it's like {temperature}°C in {city} right now. It's hitting up to {temperature}°C and falling to {temperature}°C in {city}. It feels like {temperature}°C in {city}.); the following options are presented: 1 - Return to the menu or 2 - Exit.
+If the city is invalid, the user receives an error message (City not found!) and is prompted again to enter the city.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Check the temperature | Type Option 2 and City | receives information or City not found! Message | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Check the temperature</p>
+    <img src="assets\screenshots\manual_temperature.png" alt="Check the temperature">
+</details>
+
