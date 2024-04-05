@@ -17,16 +17,15 @@
 - [User Stories](#user-stories)
     - [Users](#users)
     - [Site Owner](#site-owner)
+    - [Returning User](#returning-user)
 - [Teachnical Design](#technical-design)
-    - [Flowchart](#flowchart)
+    - [FlowChart](#flowchart)
 - [Technology Used](#technology-used)
     - [Language used](#language-used)
-    -[Python Libraries used](#python-libraries-used)
+    - [Python Libraries used](#python-libraries-used)
     - [Other websites/tools used](#other-websitestools-used)
     - [3rd Party Python Libraries used](#3rd-party-python-libraries-used)
 - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Features to be implemented](#features-to-be-implemented)
 - [Testing](#testing)
     - [Manual Testing](#manual-testing)
     - [Tested Devices with Browsers](#tested-devices-with-browsers)
@@ -269,7 +268,7 @@ If the city is invalid, the user receives the message "City not found" and is ta
 - Browser compatibility testing
 - Validation testing
 
-# Manual assessment
+## Manual assessment
 <details><summary>User stories assessments</summary>
 
 1. User accesses the home screen with the options: 1 - Register; 2 - Login; 3 - Exit.
