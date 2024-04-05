@@ -380,6 +380,7 @@ If the city is invalid, the user receives an error message (City not found!) and
     <p>Exit</p>
     <img src="assets\screenshots\manual_main_exit.png" alt="Exit">
 </details>
+</details>
 
 ### Testing on Browsers
 - I conducted trials to ensure compatibility of this game across various browsers such as Chrome and Firefox, and subsequently managed to execute the deployment without any issues.
