@@ -413,28 +413,37 @@ No errors were found.
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
 <img src="assets\screenshots\heroku_login.png">
+
 2. Begin by navigating to the top right of the screen and clicking on "New" followed by "Create new app."
 <img src="assets\screenshots\heroku_create_app.png">
+
 3. Provide a name for your app and specify its location, then proceed by clicking on 'create app'.
 <img src="">
+
 4. On the subsequent page, head to the deploy tab and opt for connecting to GitHub.
 4.1. Upon prompt, log into your GitHub account.
 <img src="">
+
 5. Choose the repository you wish to link with your Heroku app.
 <img src="">
+
 6. Access the settings tab.
 <img src="">
+
 7. Locate the config vars section and ensure the Key is set to "PORT" with the Value being "8000".
 <img src="">
+
 8. After configuring the vars, move down to the buildpacks section (still within settings).
 8.1. Add the Python and Node.js buildpacks to your app, maintaining the order: Python followed by Node.js.
 <img src="">
+
 9. Return to the settings tab.
 9.1. Enable automatic deploys to allow Heroku to incorporate new changes from GitHub each time they're pushed.
 <img src="">
+
 10. Verify that in the 'manual deploy' section, the branch selected is 'main', then proceed to deploy the branch.
 <img src="">
-11. Upon completion, Heroku will furnish a URL for the deployed site.
+
 
 
 
