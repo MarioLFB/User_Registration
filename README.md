@@ -53,6 +53,15 @@
 - Check the sunrise and sunset times for the current day.
 - Users can access the application again at any time.
 
+### Site Owner Goals
+
+- Create a real-time weather forecasting application.
+- Encourage new users to access the site by registering and logging in.
+- Ensure optimized and fast user experience.
+- Provide users with real-time weather information.
+- Foster frequent user engagement with the application.
+- Enable quick exit and return for users from the application.
+
 ## User Experience
 ### Target Audience
 
