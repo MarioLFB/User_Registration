@@ -350,3 +350,15 @@ If the city is invalid, the user receives an error message (City not found!) and
     <img src="assets\screenshots\manual_temperature.png" alt="Check the temperature">
 </details>
 
+8. Option 3 - Check the sunrise and sunset times. User types option 3; User receives the prompt to enter the desired city (Enter the city:); User receives information about the sunrise and sunset times (In {city}, the sunrise time is {time} and the sunset time is {time}.); the following options are presented: 1 - Return to the menu or 2 - Exit.
+If the city is invalid, the user receives an error message (City not found!) and is prompted again to enter the city.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Check the sunrise and sunset times | Type Option 3 and City | receives information or City not found! Message | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Check the sunrise and sunset times</p>
+    <img src="assets\screenshots\manual_sunrise_sunset.png" alt="Check the sunrise and sunset times">
+</details>
+
