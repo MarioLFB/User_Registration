@@ -302,3 +302,14 @@ If the login is invalid, the user receives the message (Invalid name or password
     <img src="assets\screenshots\manual_login.png" alt="Login 1">
     <img src="assets\screenshots\manual_login2.png" alt="Login 2">
 </details> 
+
+3. Option 3 -  Exit: The user promptly leaves the application and receives the message (Goodbye!).
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Exit |  Type option 3 | leaves the application  | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Exit</p>
+    <img src="assets\screenshots\manual_exit.png" alt="Exit">
+</details> 
