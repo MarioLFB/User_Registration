@@ -27,8 +27,8 @@
     - [3rd Party Python Libraries used](#3rd-party-python-libraries-used)
 - [Features](#features)
 - [Testing](#testing)
-    - [Manual Testing](#manual-testing)
-    - [Tested Devices with Browsers](#tested-devices-with-browsers)
+    - [Manual assessment](#Manual-assessment)
+    - [Testing on Browsers](#testing-on-browsers)
     - [Validator Testing](#validator-testing)
     - [Bugs and Fixes](#bugs-and-fixes)
     - [Unfixed Bugs](#unfixed-bugs)
@@ -39,7 +39,7 @@
 - [Credits](#credits)
     - [Content](#content)
     - [Code](#code)
-- [Thank You](#thank-you)
+    - [Thank You](#thank-you)
 
 ## Project Goals
 ### User Stories
