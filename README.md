@@ -283,8 +283,22 @@ If the registration is invalid, they receive the message (Name already registere
 | Register | Type Name and Password | Registration successfully completed! or Name already registered  | Works as expected
 <details>
     <summary>Screenshot</summary>
-    <p>Home display</p>
+    <p>Register</p>
     <img src="assets\screenshots\manual_register.png" alt="Register 1">
     <img src="assets\screenshots\manual_register2.png" alt="Register 2">
     <img src="assets\screenshots\manual_register3.png" alt="Register 3">
+</details> 
+
+3. Option 2 -  Login: The user is prompted to enter their name (Enter your name:) and is invited to enter their password (Enter your password:).
+If the login is valid, the user receives the message (Login successfully completed!).
+If the login is invalid, the user receives the message (Invalid name or password) and returns to the input to enter their name again.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Login | Type Name and Password | Login successfully completed! or Invalid name or password  | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Login</p>
+    <img src="assets\screenshots\manual_login.png" alt="Login 1">
+    <img src="assets\screenshots\manual_login2.png" alt="Login 2">
 </details> 
