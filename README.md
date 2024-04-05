@@ -187,9 +187,37 @@ This area display an instruction for signup for new users
 - Registration Process
 The user receives instructions to register a username and password.
 The password input undergoes the getpass treatment and is not displayed on the screen for security reasons.
-Once meeting the registration standards, the user returns to the registration/login area followed by the message, "Thank you, Code! Registration successfully completed!"
+Once meeting the registration standards, the user returns to the login area followed by the message, "Thank you, Code! Registration successfully completed!" followed by the available options:
+1 - Return to the menu; 2 - Login; 3 - Exit.
 - User stories covered: 1, 2 and 8
 <details><summary>Register</summary>
 <img src="assets\screenshots\register.png">
 <img src="assets\screenshots\register2.png">
+</details>
+
+### Option 2 -  Login
+
+- The user is instructed to enter their name and then the password. If the login is successful, the user gains access to the main page of the app. If the login is invalid, a message "Invalid name or password" is displayed, prompting the user to try logging in again.
+- User stories covered: 3, 8, 10 and 13
+<details><summary>Login</summary>
+<img src="assets\screenshots\login.png">
+<img src="assets\screenshots\login2.png">
+</details>
+
+### Data Security
+
+- User data is saved in a separate .json data file and protected within the .gitignore.
+- User stories covered: 2 and 9
+<details><summary>Data Security</summary>
+<img src="assets\screenshots\security.png">
+</details>
+
+### Main Page - Weather Information
+
+- Right after logging in, the user accesses the main page with the options: 1 - Check the weather; 2 - Check the temperature; 3 - Check the sunrise and sunset times; 4 - Exit
+The user is asked to choose an option.
+If an invalid option is chosen, the user will receive the message "Invalid Option" and will be prompted to choose the correct option again.
+- User stories covered: 3, 4, 7, 14 and 15
+<details><summary>Main Page - Weather Information</summary>
+<img src="assets\screenshots\main_page.png">
 </details>
