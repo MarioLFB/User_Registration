@@ -254,3 +254,24 @@ If the city is invalid, the user receives the message "City not found" and is ta
 <img src="assets\screenshots\sunrise_sunset.png">
 <img src="assets\screenshots\sunrise_sunset2.png">
 </details>
+
+## Testing
+- Manual assessment of user stories
+- Browser compatibility testing
+- Validation testing
+
+# Manual assessment
+
+<details><summary>Welcome to Real-Time Weather Forecast</summary>
+
+1. User accesses the home screen with the options: 1 - Register; 2 - Login; 3 - Exit.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Home display | Type 1, 2 or 3 | 1: Register / 2: Login / 3: Exit | Works as expected
+
+<details>
+    <summary>Screenshot</summary>
+    <p>Home display</p>
+    <img src="assets\screenshots\manual_main_page.png" alt="Home display">
+</details> 
