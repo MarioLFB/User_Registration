@@ -444,21 +444,18 @@ The website was deployed to [Heroku](https://id.heroku.com/) using the following
 10. Verify that in the 'manual deploy' section, the branch selected is 'main', then proceed to deploy the branch.
 <img src="assets\screenshots\heroku_manual_deploy.png">
 
+Forking the Repository:
+1. Navigate to the repository's page.
+2. Locate the fork button at the top-right below the dark ribbon.
+3. Click on the fork button to create a fork of the project, enabling you to work on your own version.
 
-
-
-This repository can be forked using the following process:
-1. On the repository's page, go to the top-right of the page underneath the dark ribbon.
-1. Click on the fork button
-1. You can now work on a fork of this project. 
-
-This repository can be cloned using the following process:
-1. Go to this repository's page on GitHub.
-1. Click on the code button (not the one in the navbar, but the one right above the file list).
-1. Select an option, HTTPS, SSH, GitHub CLI.
-1. Copy the url below to your clipboard.
-1. Open Git Bash/your IDE terminal.
-1. Ensure the directory you are working in is the correct one you want to paste the project into.
-1. Type the command '$ git clone'
-1. Paste the URL of the repository after this.
-1. Hit enter on your keyboard and the project will be cloned.
+Cloning the Repository:
+1. Visit the repository's page on GitHub.
+2. Find the code button (not the one in the navbar, but the one above the file list) and click on it.
+3. Choose your preferred option: HTTPS, SSH, or GitHub CLI.
+4. Copy the provided URL to your clipboard.
+5. Open Git Bash or your IDE terminal.
+6. Ensure that the directory you're working in is where you want to place the project.
+7. Type the command '$ git clone'.
+8. Paste the copied URL after this command.
+9. Press enter, and the project will be cloned into your selected directory.
