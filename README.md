@@ -409,8 +409,8 @@ No errors were found.
 
 | **Bugs** | **Fixes** |
 | ------- | ------- |
-| The "Exit" option lacks a return message to the user | Add a goodbye message for all program exits| commit d619308
-| Double space in: print(f"The sky in {city} is all like") | Remove double spacing | commit b0fcd9d
+| The "Exit" option lacks a return message to the user | Add a goodbye message for all program exits (commit d619308)|
+| Double space in: print(f"The sky in {city} is all like") | Remove double spacing (commit b0fcd9d)| 
 
 ### Unfixed Bugs
 
