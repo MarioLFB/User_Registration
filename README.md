@@ -303,7 +303,7 @@ If the login is invalid, the user receives the message (Invalid name or password
     <img src="assets\screenshots\manual_login2.png" alt="Login 2">
 </details> 
 
-3. Option 3 -  Exit: The user promptly leaves the application and receives the message (Goodbye!).
+4. Option 3 -  Exit: The user promptly leaves the application and receives the message (Goodbye!).
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
@@ -312,4 +312,29 @@ If the login is invalid, the user receives the message (Invalid name or password
     <summary>Screenshot</summary>
     <p>Exit</p>
     <img src="assets\screenshots\manual_exit.png" alt="Exit">
-</details> 
+</details>
+
+5. User accesses the Main screen with the the options: 1 - Check the weather; 2 - Check the temperature; 3 - Check the sunrise and sunset times; 4 - Exit.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Main screen | Type 1, 2, 3 or 4 | 1: Check the weather / 2: Check the temperature / 3: Check the sunrise and sunset times / 4: Exit | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Main screen</p>
+    <img src="assets\screenshots\manual_main_screen.png" alt="Main Screen">
+</details>
+
+6. 6. Option 1 - Check the weather. User types option 1; User receives the prompt to enter the desired city (Enter the city:); User receives information about the weather condition (The sky in {city} is currently {weather}); the following options are presented: 1 - Return to the menu or 2 - Exit.
+Se a cidade nao for invalidade retorna ao usuario mensasagem de erro (City not found!)
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Check the weather | Type Option 1 and City | receives information or City not found! Message | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Check the weather</p>
+    <img src="assets\screenshots\manual_weather.png" alt="Check the weather">
+    <img src="assets\screenshots\manual_weather_error.png" alt="Check the weather error">
+</details>
+
