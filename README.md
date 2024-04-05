@@ -459,3 +459,16 @@ Cloning the Repository:
 7. Type the command '$ git clone'.
 8. Paste the copied URL after this command.
 9. Press enter, and the project will be cloned into your selected directory.
+
+## Credits
+
+### Content
+- The idea and content were created by the app developer Mario Borges.
+
+### Code
+- The application was developed with the content applied in the "Python Essentials" module.
+- Additional information was extracted from the "Love Sandwiches" module.
+
+### Thank You
+- The project was supervised and guided by Mentor Mo Shami.
+- All codes were created individually, privately and personally. I utilized the guidance and modules provided by the Code Institute with the intention of avoiding external interference, putting into practice all the content covered only by the course up to this point.
