@@ -372,3 +372,26 @@ If the city is invalid, the user receives an error message (City not found!) and
     <p>Exit</p>
     <img src="assets\screenshots\manual_main_exit.png" alt="Exit">
 </details>
+
+### Testing on Browsers
+- I conducted trials to ensure compatibility of this game across various browsers such as Chrome and Firefox, and subsequently managed to execute the deployment without any issues.
+
+### Validator Testing
+#### PEP8 Python Validator
+[PEP8 Python Validator](https://pep8ci.herokuapp.com/) was used to validate the code.
+
+This validator was provided by Code Institute.
+
+No errors were found.
+
+<details>
+    <summary>run.py</summary>
+    <p>Result: run.py</p>
+    <img src = "assets\screenshots\pep8ci_run.png" alt = "A screenshot of run.py result">
+</details>
+
+<details>
+    <summary>weather.py</summary>
+    <p>Result: weather.py</p>
+    <img src = "assets\screenshots\pep8ci_weather.png" alt = "A screenshot of weather.py result">
+</details>
