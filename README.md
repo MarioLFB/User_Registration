@@ -261,31 +261,26 @@ If the city is invalid, the user receives the message "City not found" and is ta
 - Validation testing
 
 # Manual assessment
-
-<details><summary>Welcome to Real-Time Weather Forecast</summary>
+<details><summary>User stories assessments</summary>
 
 1. User accesses the home screen with the options: 1 - Register; 2 - Login; 3 - Exit.
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Home display | Type 1, 2 or 3 | 1: Register / 2: Login / 3: Exit | Works as expected
-
 <details>
     <summary>Screenshot</summary>
     <p>Home display</p>
     <img src="assets\screenshots\manual_main_page.png" alt="Home display">
 </details> 
 
-<details><summary>Register</summary>
-
-1. Option 1 -  Register: The user is prompted to enter their name (How would you like to be called?) and is invited to choose a 6-digit password (Choose a password with 6 digits:).
+2. Option 1 -  Register: The user is prompted to enter their name (How would you like to be called?) and is invited to choose a 6-digit password (Choose a password with 6 digits:).
 If the registration is valid, they are directed to the login screen with the message (Thank You {name}! Registration successfully completed!).
 If the registration is invalid, they receive the message (Name already registered).
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Register | Type Name and Password | Registration successfully completed! or Name already registered  | Works as expected
-
 <details>
     <summary>Screenshot</summary>
     <p>Home display</p>
