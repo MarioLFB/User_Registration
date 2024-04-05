@@ -33,9 +33,9 @@
     - [Bugs and Fixes](#bugs-and-fixes)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
-    - [Deploying in Heroku](#deploying-the-website-in-heroko)
-    - [Forking the GitHub Repository](#forking-the-github-repository)
-    - [Cloning of Repository i GitHub](#cloning-the-repository-in-github)
+    - [Deployment & Local Development](#deployment-&-Local-Development)
+    - [Forking the Repository](#Forking-the-Repository)
+    - [Cloning the Repository](#Cloning-the-Repository)
 - [Credits](#credits)
     - [Content](#content)
     - [Code](#code)
@@ -268,7 +268,7 @@ If the city is invalid, the user receives the message "City not found" and is ta
 - Browser compatibility testing
 - Validation testing
 
-## Manual assessment
+### Manual assessment
 <details><summary>User stories assessments</summary>
 
 1. User accesses the home screen with the options: 1 - Register; 2 - Login; 3 - Exit.
@@ -416,8 +416,7 @@ No errors were found.
 - No unfixed bugs
 
 ## Deployment
-
-## Deployment & Local Development
+### Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
 <img src="assets\screenshots\heroku_login.png">
@@ -452,12 +451,12 @@ The website was deployed to [Heroku](https://id.heroku.com/) using the following
 10. Verify that in the 'manual deploy' section, the branch selected is 'main', then proceed to deploy the branch.
 <img src="assets\screenshots\heroku_manual_deploy.png">
 
-Forking the Repository:
+### Forking the Repository:
 1. Navigate to the repository's page.
 2. Locate the fork button at the top-right below the dark ribbon.
 3. Click on the fork button to create a fork of the project, enabling you to work on your own version.
 
-Cloning the Repository:
+### Cloning the Repository:
 1. Visit the repository's page on GitHub.
 2. Find the code button (not the one in the navbar, but the one above the file list) and click on it.
 3. Choose your preferred option: HTTPS, SSH, or GitHub CLI.
@@ -469,7 +468,6 @@ Cloning the Repository:
 9. Press enter, and the project will be cloned into your selected directory.
 
 ## Credits
-
 ### Content
 - The idea and content were created by the app developer Mario Borges.
 
