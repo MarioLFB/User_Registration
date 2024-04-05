@@ -408,3 +408,48 @@ No errors were found.
 - No unfixed bugs
 
 ## Deployment
+
+## Deployment & Local Development
+The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
+1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
+<img src="assets\screenshots\heroku_login.png">
+1. Begin by navigating to the top right of the screen and clicking on "New" followed by "Create new app."
+<img src="assets\screenshots\heroku_create_app.png">
+1. Provide a name for your app and specify its location, then proceed by clicking on 'create app'.
+<img src="assets\screenshots\heroku_app_name.png">
+1. On the subsequent page, head to the deploy tab and opt for connecting to GitHub.
+1. Upon prompt, log into your GitHub account.
+<img src="assets\screenshots\heroku_github.png">
+1. Choose the repository you wish to link with your Heroku app.
+<img src="assets\screenshots\heroku_settings.png">
+1. Access the settings tab.
+<img src="assets\screenshots\heroku_config_vars.png">
+Locate the config vars section and ensure the Key is set to "PORT" with the Value being "8000".
+<img src="assets\screenshots\heroku_buildpacks.png">
+1. After configuring the vars, move down to the buildpacks section (still within settings).
+1. Add the Python and Node.js buildpacks to your app, maintaining the order: Python followed by Node.js.
+<img src="">
+1. Return to the settings tab.
+1. Enable automatic deploys to allow Heroku to incorporate new changes from GitHub each time they're pushed.
+<img src="">
+1. Verify that in the 'manual deploy' section, the branch selected is 'main', then proceed to deploy the branch.
+<img src="">
+1. Upon completion, Heroku will furnish a URL for the deployed site.
+
+
+
+This repository can be forked using the following process:
+1. On the repository's page, go to the top-right of the page underneath the dark ribbon.
+1. Click on the fork button
+1. You can now work on a fork of this project. 
+
+This repository can be cloned using the following process:
+1. Go to this repository's page on GitHub.
+1. Click on the code button (not the one in the navbar, but the one right above the file list).
+1. Select an option, HTTPS, SSH, GitHub CLI.
+1. Copy the url below to your clipboard.
+1. Open Git Bash/your IDE terminal.
+1. Ensure the directory you are working in is the correct one you want to paste the project into.
+1. Type the command '$ git clone'
+1. Paste the URL of the repository after this.
+1. Hit enter on your keyboard and the project will be cloned.
