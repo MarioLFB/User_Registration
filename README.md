@@ -325,8 +325,8 @@ If the login is invalid, the user receives the message (Invalid name or password
     <img src="assets\screenshots\manual_main_screen.png" alt="Main Screen">
 </details>
 
-6. 6. Option 1 - Check the weather. User types option 1; User receives the prompt to enter the desired city (Enter the city:); User receives information about the weather condition (The sky in {city} is currently {weather}); the following options are presented: 1 - Return to the menu or 2 - Exit.
-Se a cidade nao for invalidade retorna ao usuario mensasagem de erro (City not found!)
+6. Option 1 - Check the weather. User types option 1; User receives the prompt to enter the desired city (Enter the city:); User receives information about the weather condition (The sky in {city} is currently {weather}); the following options are presented: 1 - Return to the menu or 2 - Exit.
+If the city is invalid, the user receives an error message (City not found!) and is prompted again to enter the city.
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
