@@ -112,10 +112,10 @@ Choose the desired option by typing the corresponding number.
 
 ### Users
 
-1. As a user, I want to have the option to login or register a new account. 
+1. As a user, I want to have the option to login or register a new account.  
 2. As a user, I want to have my data saved.
 3. As a user, I want to access the main menu after logging in.
-4. As a user, I want to have access to weather search options.
+4. As a user, I want to have access to Real Time search options.
 5. As a user, I want to choose the city to get the desired information.
 6. As a user, I want to have the option to return to the menu and perform more searches.
 7. As a user, I want to exit the application once I finish my searches.
@@ -182,7 +182,7 @@ This area display an instruction for signup for new users
 <img src="assets\screenshots\login_area.png">
 </details>
 
-### Option 1 -  Register
+### Register
 
 - Registration Process
 The user receives instructions to register a username and password.
@@ -195,7 +195,7 @@ Once meeting the registration standards, the user returns to the login area foll
 <img src="assets\screenshots\register2.png">
 </details>
 
-### Option 2 -  Login
+### Login
 
 - The user is instructed to enter their name and then the password. If the login is successful, the user gains access to the main page of the app. If the login is invalid, a message "Invalid name or password" is displayed, prompting the user to try logging in again.
 - User stories covered: 3, 8, 10 and 13
@@ -220,4 +220,37 @@ If an invalid option is chosen, the user will receive the message "Invalid Optio
 - User stories covered: 3, 4, 7, 14 and 15
 <details><summary>Main Page - Weather Information</summary>
 <img src="assets\screenshots\main_page.png">
+</details>
+
+### Check the weather
+
+- It's the first option on the main page. After selecting this option, the user is prompted to choose the city they want to receive information about. If the city is valid, real-time weather condition information is returned.
+ If the city is invalid, the user receives the message "City not found" and is taken back to the main screen.
+ After conducting the search, the user is given the option to "Return to the menu" for further searches or "Exit" to leave the program immediately.
+ - User stories covered: 4, 5, 6, 7, 10, 11, 12, 14 and 15
+ <details><summary>Check the weather</summary>
+<img src="assets\screenshots\weather.png">
+<img src="assets\screenshots\weather2.png">
+</details>
+
+### Check the temperature
+
+- It's the second option on the main page. After selecting this option, the user is prompted to choose the city they want to receive information about. If the city is valid, real-time temperature information is returned.
+If the city is invalid, the user receives the message "City not found" and is taken back to the main screen.
+ After conducting the search, the user is given the option to "Return to the menu" for further searches or "Exit" to leave the program immediately.
+ - User stories covered: 4, 5, 6, 7, 10, 11, 12, 14 and 15  
+  <details><summary>Check the temperature</summary>
+<img src="assets\screenshots\temperature.png">
+<img src="assets\screenshots\temperature2.png">
+</details>
+
+### Check the sunrise and sunset times
+
+- t's the third option on the main page. After selecting this option, the user is prompted to choose the city they want to receive information about. If the city is valid, real-time sunrise and sunset times information is returned.
+If the city is invalid, the user receives the message "City not found" and is taken back to the main screen.
+ After conducting the search, the user is given the option to "Return to the menu" for further searches or "Exit" to leave the program immediately.
+ - User stories covered: 4, 5, 6, 7, 10, 11, 12, 14 and 15  
+  <details><summary>Check the sunrise and sunset times</summary>
+<img src="assets\screenshots\sunrise_sunset.png">
+<img src="assets\screenshots\sunrise_sunset2.png">
 </details>
