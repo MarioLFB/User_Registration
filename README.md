@@ -362,3 +362,13 @@ If the city is invalid, the user receives an error message (City not found!) and
     <img src="assets\screenshots\manual_sunrise_sunset.png" alt="Check the sunrise and sunset times">
 </details>
 
+9. Option 4 -  Exit: The user promptly leaves the application and receives the message (Goodbye!).
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Exit |  Type option 4 | leaves the application  | Works as expected
+<details>
+    <summary>Screenshot</summary>
+    <p>Exit</p>
+    <img src="assets\screenshots\manual_main_exit.png" alt="Exit">
+</details>
