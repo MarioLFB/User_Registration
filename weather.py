@@ -73,6 +73,9 @@ def sunrise_sunset(data):
 
 
 def weather(data):
+    """
+    Function to show the weather of the city entered by the user.
+    """
     city = data['name']
     print(f"The sky in {city} is all like "
           f"{data['weather'][0]['description']}")
@@ -80,6 +83,9 @@ def weather(data):
 
 
 def temperature(data):
+    """
+    Function to show the temperature of the city entered by the user.
+    """
     city = data['name']
     print(f"Dude, it's like {data['main']['temp'] - 273.15:.0f}°C " +
           f"in {city} right now.")
