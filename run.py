@@ -113,6 +113,7 @@ def main():
         exit()
     else:
         print("Invalid option")
+        time.sleep(1)
         main()
 
 
